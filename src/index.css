@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .font-raleway {
+        font-family: "Raleway", sans-serif;
+    }
+
+    body {
+        @apply bg-wall overflow-x-hidden;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+}
