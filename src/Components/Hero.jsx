@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="col-span-8 p-12">
                 <div className="flex flex-col items-start gap-8 p-16">
                     <div className="title text-7xl leading-tight uppercase font-bold">
-                        <p>Hi, I'M Yash</p>
+                        <p>Hi, I'M Xxx</p>
                         <p className='flex items-center justify-center'>A Creative <img src='/bg-decor-1.svg' className='ml-3 w-12 h-12 mr-3' /> Developer</p>
                         <p>Based In <span className='underline'>India</span></p>
                     </div>
@@ -39,8 +39,8 @@ const Hero = () => {
             </div>
             <div className="col-span-4">
                 <div className="relative mt-20 flex items-center justify-center">
-                <img src='/bg-decor-2.svg' alt="hero-section" className=''/>
-                <img src="/person.png" alt="person" className='absolute top-0'/>
+                    <img src='/bg-decor-2.svg' alt="hero-section" className='' />
+                    <img src="/person.png" alt="person" className='absolute top-0' />
                 </div>
             </div>
             <div className="marquee absolute w-[110%] -rotate-3 -bottom-20 -left-10 bg-secondary p-6 text-white overflow-hidden">

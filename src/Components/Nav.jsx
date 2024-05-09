@@ -6,7 +6,7 @@ const Nav = () => {
         <div className='p-6 px-12 flex items-center justify-center'>
             <div className="logo flex items-center justify-center">
                 <img src='/bg-decor-1.svg' className='w-6 h-6 mr-3' />
-                <p className='text-2xl font-semibold'>Yash-Folio</p>
+                <p className='text-2xl font-semibold'>Folio</p>
             </div>
             <div className="items font-semibold flex grow items-center justify-center gap-8">
                 {items.map((x, i) => <div className='cursor-pointer' key={i + x}>{x}</div>)}
